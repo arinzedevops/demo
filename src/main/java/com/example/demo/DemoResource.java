@@ -20,7 +20,7 @@ public class DemoResource {
 
     @RequestMapping(path = "/test", method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<String> test() {
-        System.out.println("Testing");
+        System.out.println("Testing .......");
         return ResponseEntity.ok("Testing Azure DevOps");
     }
 }
